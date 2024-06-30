@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.main_part{
+    display: inline-block;
+    width: 100%;
+}
+.right_side_header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 300px;
+   
+    margin-right: 30px;
+    padding-top: 10px;
+}
+.header_section{
+    display: flex;
+    flex-direction:row;
+    border: 1px;
+    border-bottom: 0px;
+    border-style: solid;
+    
+}
+.chat_header_left_section{
+    display: flex;
+    flex-direction: row;
+}
+.profile_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.menu_bar_container{
+    display: flex;
+    flex-direction: column;
+    max-width:280px ;
+    
+}
+.menu_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:300px;
+    padding-right:20px ;
+}
+.menu_header{
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.menu_top_part{
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    
+}
+.write_img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+.filter_img{
+    height: 25px;
+    width: 25px; 
+}
+.write_icon_div{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.filter_icon_div{
+    display: inline-block;
+}
+.search-bar{
+    padding-left:10px ;
+    width: 320px;
+    border: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+}
+.search_input{
+    height: 20px;
+    width: 286px;
+}
+.profile_1_pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.profile_pic_div{
+    padding-left:10px ;
+    margin-top: 20px;
+}
+.account_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+.account_right{
+    margin-left: 54px;
+}
+.content{
+    display: flex;
+    margin-left: 10px;
+}
+.account_no_notification{
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 50%;
+    background-color: rgb(8, 116, 8);
+    color: white;
+}
+.account_time{
+    color: rgb(12, 144, 12);
+}
+.profile_name{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.account_time_seen{
+    margin-top: -20px;
+    color: grey;
+}
+
+.chat_profile_img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.chat_pname{
+    margin: left -100px;
+    margin-top: px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    min-width: 1px;
+}
+.chat_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    border-style: solid;
+    height: 70px;
+     flex: 1; 
+}
+.last_seen{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left:px ;
+}
+.video_button{
+    height: 40px;
+    width: 40px;
+}
+.video_icon{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+.call_button{
+    height: 40px;
+    width: 40px;
+    margin-left: -5px;
+}
+.call_icon{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px; 
+}
+.search_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: white;
+    
+}
+.search_icon{
+    height: 20px;
+    width: 20px; 
+    padding-top: 5px;
+
+    
+}
+.group_and_text_box{
+    display: flex;
+    flex-direction: row;
+    /* flex: 1fr; */
+    width: 100%;
+   
+}
+.emoji_icon{
+    height: 20px;
+    width: 20px;
+    padding-top: 2px;
+}
+.emoji_button{
+    border: none;
+    background-color: white;
+}
+.attachment_icon{
+    height: 20px;
+    width: 20px;
+    padding-top: 2px;
+}
+.attachment_button{
+    border: none;
+    background-color: white; 
+}
+.mic_icon{
+    height: 20px;
+    width: 20px;
+    padding-top: 2px;
+    background-color: white;
+}
+.mic_button{
+    border: none;
+    background-color: white;  
+}
+.chat_type_bar{
+     height: 30px;
+     flex: 1;
+     font-size: 18px;
+     border: none;
+    
+     
+}
+.chat_text_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width:1203px;
+    height: 40px;
+    border: 1px;
+    border-style:solid ;
+    justify-content: space-between;
+    margin-top: -4px;
+}
+.text_box{
+    margin-top: -25px;
+    width: 100%;
+}
+.text_box_background{
+    width:100%;
+}
+.chat_box_back_img{
+   height: 615px;
+   width: 100%;
+}
+.profile_part{
+    border: 1px;
+    border-top: 0px;
+    border-style: solid;
+}
+.side_bar_navigation{
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+   justify-content: space-between;
+   height: 700px;
+   padding-top: 19px;
+   
+}
+.account_profile_img{
+    height:36px;
+    weight:40px ;
+    border-radius: 50%;
+}
+.side_bar_navigation_div{
+     width: fit-content;
+     padding-left: 9px;
+}
+.side_bar_navigation_top_section{
+    width: fit-content;
+}
+.side_bar_navigation_bottom_section{
+    width: fit-content;
+}
+.side_bar_navigation_img{
+    height:23px ;
+    width: 23px;
+    padding-bottom: 10px;
+}
+.account_profile{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
